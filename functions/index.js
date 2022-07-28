@@ -13,7 +13,6 @@ app.get('/test', (req,res) => {
 app.get('/another-one', (req,res) => {
   res.send('This one works, too!');
 });
-// 
 
 exports.api = functions.https.onRequest(app);
 
